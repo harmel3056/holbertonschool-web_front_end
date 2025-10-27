@@ -11,14 +11,14 @@ body {
     line-height: var(--line-height-base);
 }
 
-a[href] {
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
 
-a[href]:visited {font-style: italic}
-a[href]:hover {text-decoration: underline}
-a[href]:active {color:var(--color-light-grey)}
+a:visited {font-style: italic}
+a:hover {text-decoration: underline}
+a:active {color:var(--color-light-grey)}
 
 .visually-hidden {display: none}
 .card-category {color: var(--color-primary)}
