@@ -18,7 +18,7 @@ a:link {
 
 a:visited {font-style: italic}
 a:hover {text-decoration: underline}
-a:active {color: var(--color-light-grey)}
+a:active {background-color: var(--color-light-grey)}
 
 .visually-hidden {display: none}
 .card-category {color: var(--color-primary)}
