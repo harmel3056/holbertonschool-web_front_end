@@ -1,4 +1,4 @@
-/* Introduces variable colour profiles */
+/* Introduces font families */
 html {
     scroll-behavior: smooth;
 }
@@ -15,7 +15,7 @@ a {
 .card-category {color: var(--color-primary)}
 .section-tagline {color: var(--color-primary)}
 
-* {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title)
 }
 
