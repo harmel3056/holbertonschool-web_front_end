@@ -391,12 +391,12 @@ a:active {background-color: var(--color-light-grey)}
     text-decoration: none;
 }
 .card-testimonial {text-align: center}
-.card-testimonial > .card-avatar {
+.card-testimonial .card-avatar {
     border-radius: 50%;
     height: 10rem;
     width: 10rem;
 }
-.card-testimonial > .card-quote > cite {
+.card-testimonial .card-quote cite {
     display: block;
     padding-top: 1rem;
     color: var(--color-primary)
