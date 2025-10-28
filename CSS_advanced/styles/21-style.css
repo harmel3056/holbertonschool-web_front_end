@@ -434,7 +434,7 @@ ul.row {
 .col-1-3 {width: 33.33%;}
 .col-1-2 {width: 50%;}
 /* ^= matches any element whose first class name starts with "..."*/
-[class^="col"] {
+[class^="col-"] {
     float: left;
     padding: 0.5rem;
 }
