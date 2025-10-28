@@ -506,7 +506,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: var(--font-size-small);
     color: var(--text-color);
 }
-.footer-address {font-color: var(--text-color)}
+.footer-address {color: var(--text-color)}
 .footer ul {text-align: right}
 
 .social-link {display: block}
