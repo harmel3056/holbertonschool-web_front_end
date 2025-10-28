@@ -422,7 +422,7 @@ a:active {background-color: var(--color-light-grey)}
 }
 .nav .nav-link {
     display: block;
-    padding: 50vh 100vw
+    padding: .5rem 1rem;
 }
 .nav .nav-link:hover {color: var(--nav-item-link-hover)}
 
@@ -472,7 +472,7 @@ h1, h2, h3, h4, h5, h6 {
     --nav-item-letter-spacing: .04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: color-primary
+    --nav-item-link-hover: var(--color-primary);
 }
 
 .footer {padding: var(--footer-padding)}
