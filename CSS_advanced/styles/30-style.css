@@ -435,10 +435,13 @@ a:active {background-color: var(--color-light-grey)}
 }
 .card-work .card-title a::after {
     position: absolute;
-    position: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     content: "";
 }
-.card-word:hover .card-title {opacity: 1}
+.card-work:hover .card-title {opacity: 1}
 .button {
     display: var(--button-display);
     padding: var(--button-padding);
