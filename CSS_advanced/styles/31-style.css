@@ -444,7 +444,7 @@ a:active {background-color: var(--color-light-grey)}
 .card-work:hover .card-title {opacity: 1}
 .card-testimonial .card-quote {position: relative}
 .card-testimonial .card-quote::before {
-    content: \201C;
+    content: "\201C";
     position: absolute;
     vertical-align: -4.5rem;
     left: -1rem;
