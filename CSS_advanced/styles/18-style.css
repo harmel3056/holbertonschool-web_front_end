@@ -422,7 +422,7 @@ a:active {background-color: var(--color-light-grey)}
 }
 .nav .nav-link {
     display: block;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
 }
 .nav .nav-link:hover {color: var(--nav-item-link-hover)}
 
